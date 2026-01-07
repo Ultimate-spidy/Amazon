@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
 </head>
 <body>
-    This is just to ckeck the code of amazon page.
-    git test
+    <heade class="amazon-header">
+        <section class="amazon-header-left">
+            <a href="#" class="amazon-logo white-border">
+                <span class="amazon-logo-pc-block">
+                    <img src="images/amazon-logo-white.png" alt="amazon logo pc" class="amazon-logo-pc">
+                    .in
+                </span>
+                <img src="images/icons/amazon-mobile-logo-white.png" alt="amazon logo mobile" class="amazon-logo-mobile" >
+            </a>
+        </section>
+        <section class="amazon-header-center">
+            <input type="text" class="amazon-search-box" placeholder="Search">
+            <button class="search-button"><img src="images/icons/search-icon.png" alt="search-button" class="search-button-icon"></button>
+        </section>
+        <section class="amazon-header-right">
+            <img src="images/icons/hamburger-menu.png" alt="hamburger-menu" class="hamburger-menu">
+            <span class="amazon-header-right-desktop">
+            <a class="returns-orders white-border">
+                <span class="returns">Returns</span>
+                <span class="orders">& Orders</span>
+            </a>
+            <a class="cart white-border">
+                <img src="images/icons/cart-icon.png" alt="cart icon" class="cart-icon">
+                <div class="cart-count">3</div>
+                <div class="cart-text">Cart</div>
+            </a>
+            </span>
+        </section>
+    </header>
 </body>
 </html>
